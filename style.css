@@ -1,0 +1,52 @@
+.banner {
+  width: 100%;
+  height: 300px;
+  background-image: url("https://images.unsplash.com/photo-1590019012497-b44f1aaa40d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80");
+  color: white;
+  font-size: 80px;
+  padding-left: 50px;
+  padding-top: 50px;
+  font-family: 'Rampart One', cursive;
+}
+
+.body {
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Josefin Slab', serif;
+  font-size: 25px;
+}
+
+.left {
+  width: 65%;
+  float: left;
+  margin-top: 20px;
+  border: 5px groove blue;
+  border-radius: 25px;
+  padding: 20px;
+  background-color: #FF7F7F;
+}
+
+.right {
+  margin-top: 20px;
+  margin-left: 70%;
+}
+
+button {
+  width: 100%;
+  border: 5px groove red;
+  border-radius: 25px;
+  background-color: skyblue;
+  font-family: 'Josefin Slab', serif;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: black;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
