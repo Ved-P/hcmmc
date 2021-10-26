@@ -1,4 +1,4 @@
-people = '[
+var data = [
   {"name": "Mr. G",
     "role": "Head of the Competition, Problem Writer"},
   {"name": "Nathaniel Satriya",
@@ -11,4 +11,12 @@ people = '[
     "role": "HCMMC 2022 Lead, Problem Writer, Webmaster"},
   {"name": "Chinmay Raghvendran",
     "role": "HCMMC 2022 Lead, Problem Writer"},
-  ]';
+  ];
+
+function showPeople() {
+  var html = document.getElementById('people');
+
+  for (let i = 0; i < data.length; i++) {
+    html.innerHTML += "<div class='person'><b>" + data[i].name + "</b><br>" + data[i].role + "</div><br>";
+  }
+}
