@@ -17,6 +17,6 @@ function showPeople() {
   var html = document.getElementById('people');
 
   for (let i = 0; i < data.length; i++) {
-    html.innerHTML += "<div class='person'><b>" + data[i].name + "</b><br>" + data[i].role + "</div><br>";
+    html.innerHTML += "<div class='person'><b>" + data[i].name + "</b><br>" + data[i].role + "</div>";
   }
 }

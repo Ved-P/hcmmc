@@ -43,6 +43,14 @@ button {
   margin-bottom: 10px;
 }
 
+.person {
+  border: 5px groove orange;
+  border-radius: 25px;
+  background-color: yellow;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
 .footer {
   margin-top: 20px;
   background-color: black;
